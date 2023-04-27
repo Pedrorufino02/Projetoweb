@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background: #ed5a0e;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+img {
+    width: 150px;
+    text-align: "center"
+    
+}
+
+body {
+    	background-color: #f2f2f2
+}
+
+main {
+    width: 0%;
+    height: 0%;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.produto {
+
+position:absolute;
+width:600px;
+left: 450px;
+top: 250px;
+border-right: 100px
+}
+.produto1 {
+
+    position:absolute;
+    width:500px;
+    left: 750px;
+    top: 270px;
+    border-right: 100px
+    }
+.produto2 {
+
+        position:absolute;
+        width:500px;
+        left: 1050px;
+        top: 270px;
+        border-right: 100px
+        }
+
+
+h2 {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+p {
+       align-items: center;
+    
+}
+
+nav {
+  
+   text-align: center;
+background: rgb(148,187,233);
+background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(255,159,201,1) 100%);
+   
+}
+
+
+
+h1{
+	
+    text-align: center;
+
+}
+
+.foto{
+    position: absolute;
+    width: 272px;
+    height: 210px;
+    left: 1300px;
+    top: 250px;
+    border-radius: 159px;
+}
+
+.foto_autor{
+    position: absolute;
+    width: 400px;
+    height: 253px;
+    left: 1400px;
+    top: 200px;
+}
+
+
+
+.cadastro{
+    position: absolute;
+    width: 260px;
+    height: 210px;
+    left: 1400px;
+    top: -15px;
+}
