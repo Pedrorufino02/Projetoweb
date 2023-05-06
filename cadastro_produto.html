@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Cadastro produto</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    <header>
+
+
+        <div id="logo">
+            <a href=index.html> <img src="Logo.png"></a>
+        </div>
+        <div class="cadastro">
+
+            <form>
+                <p><label>Login<input id="id" size="20" type="text"></label><br></p>
+                <p><label>Senha<input id="Senha" size="20" type="password"></label><br></p>
+                <a href="entrar.html"><input type="submit" value="entrar"></a>
+                <a href="esqueci.html">Esqueci a Senha</a>
+                <p><a href="cadastro.html">Cadastre-se</a></p>
+            </form>
+
+        </div>
+
+    </header>
+    <main>
+        <nav>
+            <a href="index.html">Início</a>|
+            <a href="autor.html">Autor</a>|
+            <a href="sobre.html">Sobre</a>|
+            <a href="contato.html">Contato</a>|
+            <a href="login_adm.html">Administração</a>
+        </nav>
+
+        <h2> Cadastro de Produtos</h2>
+        <div class="tela_cadastro_produto">
+            <form>
+                <label>Descrição<input id="nome" size="32" type="text"></label><br>
+                <label>Categoria<select>
+                        <option value="Moda Masculina">Moda Masculina</option>
+                        <option value="Moda Feminina">Moda Feminina</option>
+                        <option value="Moda Infantil">Moda Infantil</option>
+                    </select></label><br>
+                <label>Sub-Categoria<select>
+                        <option value="Camisas Polo">Camisas Polo</option>
+                        <option value="Camisetas">Camisetas</option>
+                        <option value="Jaquetas e Casacos">Jaquetas e Casacos</option>
+                        <option value="Bermudas">Bermudas</option>
+                        <option value="Calças">Calças</option><br>
+                    </select><br>
+                    <label>Tamanho<select>
+                            <option value="Tamanho P">P</option>
+                            <option value="Tamanho M">M</option>
+                            <option value="Tamanho G">G</option>
+                            <br>
+                        </select><br>
+                        <label>Preço<input id="Preço" size="32" type="valor"></label><br>
+                        </select>
+                        <label> Imagem<input id="img_produto" type="file"></label><br>
+            </form>
+            <hr>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Sub-Categoria</th>
+                    <th>Tamanho</th>
+                    <th>Preço</th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+                <br>
+                <tr>
+                    <td>1</td>
+                    <td>Camisa Masculina</td>
+                    <td>Moda Masculina</td>
+                    <td>Camisa Polo</td>
+                    <td>M</td>
+                    <td>39,90</td>
+                    <td><button class="Edite-btn">Editar</button></td>
+                    <td><button class="Delete-btn">Apagar</button></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>1</td>
+                    <td>Calça Masculina</td>
+                    <td>Moda Masculina</td>
+                    <td>Calças</td>
+                    <td>G</td>
+                    <td>39,90</td>
+                    <td><button class="Edite-btn">Editar</button></td>
+                    <td><button class="Delete-btn">Apagar</button></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>1</td>
+                    <td>Bermuda Masculina</td>
+                    <td>Moda Masculina</td>
+                    <td>Bermudas</td>
+                    <td>M</td>
+                    <td>49,90</td>
+                    <td><button class="Edite-btn">Editar</button></td>
+                    <td><button class="Delete-btn">Apagar</button></td>
+                </tr>
+
+            </table>
+        </div>
+<br>
+    </main>
+</body>
+<footer>
+
+    <nav>
+        <a href="index.html">Início</a><br>
+        <a href="autor.html">Autor</a><br>
+        <a href="sobre.html">Sobre</a><br>
+        <a href="contato.html">Contato</a><br>
+    </nav>
+
+</footer>
+
+</html>
